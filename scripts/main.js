@@ -10,7 +10,7 @@ let addExcitement = (theWordArray, punctuation, number) => {
 
     // Each time the for loop executes, you're going to add one more word to this string
     let buildMeUp = ""
-    symbol = punctuation
+    let symbol = punctuation
     for (let index = 1 ; index < number; index++) {
         symbol = punctuation + symbol
 
@@ -32,4 +32,4 @@ let addExcitement = (theWordArray, punctuation, number) => {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence, "👾", 4 )
+addExcitement(sentence, "👾", 3 )
